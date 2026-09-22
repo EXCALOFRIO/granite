@@ -1,0 +1,7 @@
+# Integridad byte-exacta: sin conversion de fin de linea en ningun fichero.
+# Es imprescindible para que los hashes de SHA256SUMS sigan siendo validos
+# tras clonar el repositorio en Windows, Linux o macOS.
+* -text
+
+# Sin Git LFS a proposito: un clone debe traer los pesos reales,
+# nunca un puntero LFS.

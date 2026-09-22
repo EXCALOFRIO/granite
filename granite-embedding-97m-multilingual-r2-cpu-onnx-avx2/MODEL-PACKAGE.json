@@ -1,0 +1,15 @@
+{
+  "format": "brain-embedding-model-package",
+  "version": 1,
+  "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+  "revision": "835ad14087e140460703cf0fae09f97d469d65c2",
+  "backend": "onnxruntime",
+  "model_file": "onnx/model_quint8_avx2.onnx",
+  "architecture": "ModernBERT",
+  "pooling": "cls",
+  "normalize": "l2",
+  "embedding_dimension": 384,
+  "max_sequence_length": 32768,
+  "license": "Apache-2.0",
+  "retrieved_at_utc": "2026-09-22T13:46:31Z"
+}
